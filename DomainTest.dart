@@ -2,6 +2,11 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:http/http.dart' as http;
 
+/***
+ *  使用http套件:
+ *  因題目需求只需要測試下載的時間，只需要用簡單的http的get去確認時間
+ */
+
 class DomainTest {
   /// 儲存 domain 和下載時間的列表
   List<Map<String, dynamic>> _downloadResults = [];
